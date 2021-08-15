@@ -41,14 +41,14 @@ To integrate `WrapperCodable` into your project using SPM, specify it in your `P
 let package = Package(
     …
     dependencies: [
-        .package(url: "https://github.com/GodL/WrapperCodable.git", from: "0.0.1"),
+        .package(url: "https://github.com/GodL/WrapperCodable.git", from: "0.0.2"),
     ],
     targets: [
         .target(name: "YourTarget", dependencies: ["WrapperCodable", …])
         …
     ]
 )
-``
+```
 
 ## Author
 
